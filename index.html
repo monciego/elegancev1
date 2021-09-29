@@ -1,22 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-PH">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Make your home exquisite and elegance your way."
+    />
+    <meta
+      name="keywords"
+      content="interior, interior design company, elegance, front-end project, jericho, jericho bantiquete"
+    />
+    <meta name="author" content="Jericho Bantiquete" />
+    <meta name="copyright" content="Jericho Bantiquete" />
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="./dist/css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>ELEGANCE</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./dist/images/favicon/favicon.png"
+    />
+
+    <title>Elegance</title>
   </head>
   <body>
     <div class="container">
+      <!-- navbar -->
       <nav class="nav-bar">
         <div class="logo">
-          <a href="index.html">
+          <a href="./index.html">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="195.5"
@@ -51,28 +78,42 @@
         <ul class="nav-links">
           <li class="link"><a href="index.html" id="active-nav">Home</a></li>
           <li class="link">
-            <a href="services.html" class="link-service">Services</a>
+            <a href="./src/services/services.html" class="link-service"
+              >Services</a
+            >
             <div class="drop-content">
               <ul>
                 <li>
-                  <a href="new-construction.html">New Construction</a>
-                  <a href="renovation.html">Renovation</a>
-                  <a href="space-planning.html">Space Planning</a>
-                  <a href="color-consultation.html">Color Consultation</a>
-                  <a href="furniture-selection.html">Furniture Selection</a>
-                  <a href="window-treatments.html">Window Treatments</a>
-                  <a href="flooring.html">Flooring</a>
-                  <a href="lighting.html">Lighting</a>
-                  <a href="consultation.html">Consultation</a>
+                  <a href="./src/services/new-construction.html"
+                    >New Construction</a
+                  >
+                  <a href="./src/services/renovation.html">Renovation</a>
+                  <a href="./src/services/space-planning.html"
+                    >Space Planning</a
+                  >
+                  <a href="./src/services/color-consultation.html"
+                    >Color Consultation</a
+                  >
+                  <a href="./src/services/furniture-selection.html"
+                    >Furniture Selection</a
+                  >
+                  <a href="./src/services/window-treatments.html"
+                    >Window Treatments</a
+                  >
+                  <a href="./src/services/flooring.html">Flooring</a>
+                  <a href="./src/services/lighting.html">Lighting</a>
+                  <a href="./src/services/consultation.html">Consultation</a>
                 </li>
               </ul>
             </div>
           </li>
-          <li class="link"><a href="about.html">About</a></li>
-          <li class="link"><a href="projects.html">Projects</a></li>
-          <li class="link"><a href="gallery.html">Gallery</a></li>
-          <li class="link"><a href="explore.html">Explore</a></li>
-          <li class="link"><a href="contact.html">Contact</a></li>
+          <li class="link"><a href="./src/about/about.html">About</a></li>
+          <li class="link">
+            <a href="./src/projects/projects.html">Projects</a>
+          </li>
+          <li class="link"><a href="./src/gallery/gallery.html">Gallery</a></li>
+          <li class="link"><a href="./src/explore/explore.html">Explore</a></li>
+          <li class="link"><a href="./src/contact/contact.html">Contact</a></li>
         </ul>
         <div class="menu-btn">
           <div class="line line1"></div>
@@ -90,14 +131,16 @@
           Home Exquisite.
         </h1>
         <p class="sub-text-home">Elegance your way.</p>
-        <a href="projects.html" class="btn btn-primary">Our projects</a>
+        <a href="./src/projects/projects.html" class="btn btn-primary"
+          >Our projects</a
+        >
       </div>
 
       <!-- who we are -->
       <div class="who home-section reveal">
         <div class="who-image col-left column">
           <img
-            src="./images/section-images/home/who-we-are-image.png"
+            src="./dist/images/section-images/home/who-we-are-image.png"
             alt="team image"
           />
         </div>
@@ -137,7 +180,7 @@
         </div>
         <div class="process-image col-right column">
           <img
-            src="./images/section-images/home/process-image.jpg"
+            src="./dist/images/section-images/home/process-image.jpg"
             alt="team image"
           />
         </div>
@@ -158,7 +201,7 @@
           <div class="reveal">
             <div class="our-service-image">
               <img
-                src="./images/section-images/home/our-services/new-construction.png"
+                src="./dist/images/section-images/home/our-services/new-construction.png"
                 alt="new construction"
                 class="our-service-img"
               />
@@ -169,8 +212,8 @@
           <div class="reveal">
             <div class="our-service-image">
               <img
-                src="./images/section-images/home/our-services/renovation.png"
-                alt="new construction"
+                src="dist/images/section-images/home/our-services/renovation.png"
+                alt="renovation"
                 class="our-service-img"
               />
               <span class="our-service-title">Renovation</span>
@@ -180,8 +223,8 @@
           <div class="reveal">
             <div class="our-service-image">
               <img
-                src="./images/section-images/home/our-services/space-planning.png"
-                alt="new construction"
+                src="dist/images/section-images/home/our-services/space-planning.png"
+                alt="space planning"
                 class="our-service-img"
               />
               <span class="our-service-title">Space Planning</span>
@@ -191,8 +234,8 @@
           <div class="reveal">
             <div class="our-service-image">
               <img
-                src="./images/section-images/home/our-services/colour-consultation.png"
-                alt="new construction"
+                src="dist/images/section-images/home/our-services/colour-consultation.png"
+                alt="color consultation"
                 class="our-service-img"
               />
               <span class="our-service-title">Colour Consultation</span>
@@ -202,8 +245,8 @@
           <div class="reveal">
             <div class="our-service-image">
               <img
-                src="./images/section-images/home/our-services/furniture-selection.png"
-                alt="new construction"
+                src="dist/images/section-images/home/our-services/furniture-selection.png"
+                alt="furniture selection"
                 class="our-service-img"
               />
               <span class="our-service-title">Furniture Selection</span>
@@ -213,8 +256,8 @@
           <div class="reveal">
             <div class="our-service-image">
               <img
-                src="./images/section-images/home/our-services/window-treatments.png "
-                alt="new construction"
+                src="dist/images/section-images/home/our-services/window-treatments.png"
+                alt="window treatments"
                 class="our-service-img"
               />
               <span class="our-service-title">Window Treatments</span>
@@ -224,8 +267,8 @@
           <div class="reveal">
             <div class="our-service-image">
               <img
-                src="./images/section-images/home/our-services/flooring.png "
-                alt="new construction"
+                src="dist/images/section-images/home/our-services/flooring.png"
+                alt="flooring"
                 class="our-service-img"
               />
               <span class="our-service-title">Flooring</span>
@@ -235,8 +278,8 @@
           <div class="reveal">
             <div class="our-service-image">
               <img
-                src="./images/section-images/home/our-services/lighting.png "
-                alt="new construction"
+                src="dist/images/section-images/home/our-services/lighting.png"
+                alt="lighting"
                 class="our-service-img"
               />
               <span class="our-service-title">Lighting</span>
@@ -246,8 +289,8 @@
           <div class="reveal">
             <div class="our-service-image">
               <img
-                src="./images/section-images/home/our-services/consultation.png"
-                alt="new construction"
+                src="dist/images/section-images/home/our-services/consultation.png"
+                alt="consultation"
                 class="our-service-img"
               />
               <span class="our-service-title">Consultation</span>
@@ -267,41 +310,41 @@
         <div class="featured-company reveal">
           <a href="https://www.veranda.com/"
             ><img
-              src="./images/section-images/home/featured/veranda-logo.svg"
+              src="./dist/images/section-images/home/featured/veranda-logo.svg"
               alt="Veranda logo"
           /></a>
 
           <a href="https://www.architecturaldigest.com/">
             <img
-              src="./images/section-images/home/featured/architectural-digest-logo.svg"
+              src="./dist/images/section-images/home/featured/architectural-digest-logo.svg"
               alt="Architectural Digest logo"
             />
           </a>
 
           <a href="https://luxesource.com/">
             <img
-              src="./images/section-images/home/featured/luxe-logo.svg"
+              src="./dist/images/section-images/home/featured/luxe-logo.svg"
               alt="luxe logo"
             />
           </a>
 
           <a href="https://www.romantichomes.com/">
             <img
-              src="./images/section-images/home/featured/rh-logo.svg"
+              src="./dist/images/section-images/home/featured/rh-logo.svg"
               alt="romantic homes logo"
             />
           </a>
 
           <a href="https://www.housebeautiful.com/">
             <img
-              src="./images/section-images/home/featured/house-beautiful-logo.svg"
+              src="./dist/images/section-images/home/featured/house-beautiful-logo.svg"
               alt="house beautiful logo"
             />
           </a>
 
           <a href="https://www.elledecor.com/">
             <img
-              src="./images/section-images/home/featured/elle-decor-logo.svg"
+              src="./dist/images/section-images/home/featured/elle-decor-logo.svg"
               alt="elle decor logo"
             />
           </a>
@@ -315,7 +358,7 @@
         <div class="upper-footer">
           <div class="footer-details">
             <div class="footer-logo">
-              <img src="./images/footer-logo.svg" alt="logo" />
+              <img src="./dist/images/logo/footer-logo.svg" alt="logo" />
             </div>
             <p class="footer-detail">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -328,7 +371,9 @@
             <p class="git-title">Get in touch</p>
             <p class="git-detail footer-number">+9(9421) 412 15 96</p>
             <p class="git-detail elegance@example.com">
-              <a href="#">elegance@example.com</a>
+              <a href="mailto:jerichobantiquete@gmail.com"
+                >elegance@example.com</a
+              >
             </p>
             <p class="git-detail footer-address">
               Guimbal, Iloilo City, Philippines
@@ -340,8 +385,8 @@
           <div class="connect">
             <p class="lower-footer-title">Connect</p>
             <ul class="connect-footer">
-              <li><a href="about.html">Meet our team</a></li>
-              <li><a href="explore.html">Blog</a></li>
+              <li><a href="./src/about/about.html">Meet our team</a></li>
+              <li><a href="./src/explore/explore.html">Blog</a></li>
             </ul>
           </div>
           <div class="newsletter-footer">
@@ -358,30 +403,34 @@
             </p>
             <div class="social-footer">
               <a href="https://www.behance.net/">
-                <img src="./images/icons/social/behance.svg" alt="behance logo"
+                <img
+                  src="./dist/images/icons/social/behance.svg"
+                  alt="behance logo"
               /></a>
 
               <a href="https://www.instagram.com/">
                 <img
-                  src="./images/icons/social/instagram.svg"
+                  src="./dist/images/icons/social/instagram.svg"
                   alt="instagram logo"
                 />
               </a>
 
               <a href="https://www.pinterest.ph/">
                 <img
-                  src="./images/icons/social/pinterest.svg"
+                  src="./dist/images/icons/social/pinterest.svg"
                   alt="pinterest logo"
                 />
               </a>
 
               <a href="https://www.twitter.com/">
-                <img src="./images/icons/social/twitter.svg" alt="twitter logo"
+                <img
+                  src="./dist/images/icons/social/twitter.svg"
+                  alt="twitter logo"
               /></a>
 
               <a href="https://www.facebook.com/">
                 <img
-                  src="./images/icons/social/facebook.svg"
+                  src="./dist/images/icons/social/facebook.svg"
                   alt="facebook logo"
               /></a>
             </div>
@@ -390,6 +439,7 @@
       </div>
     </footer>
 
-    <script src="./js/app.js"></script>
+    <!-- javascript -->
+    <script src="./dist/js/main.js"></script>
   </body>
 </html>

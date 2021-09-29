@@ -160,7 +160,7 @@ body {
 /* home */
 .home {
   height: 85vh;
-  background: url("../images/section-images/home/home-image.png");
+  background: url("../../dist/images/section-images/home/home-image.png");
   background-size: 600px 360px;
   background-repeat: no-repeat;
   background-position: right;
@@ -2603,7 +2603,7 @@ form {
     width: 95%;
   }
   .home {
-    background: url("/images/section-images/home/home-mobile-image.jpg");
+    background: url("../../dist/images/section-images/home/home-mobile-image.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
